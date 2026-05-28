@@ -6,10 +6,9 @@ Voice Controlled Task Manager is a web-based task management application where u
 
 The main goal is to create an AI-like voice assistant that can listen to the user, understand natural language commands, execute task actions, and respond back using voice.
 
-Users can create, read, update, and delete tasks through conversation. The application does not use manual task action buttons such as edit or delete buttons. Task management actions are performed through voice commands only.
+Users can create, read, update, and delete tasks through conversation. The application does not use manual task action buttons such as edit or delete buttons. Task management actions are performed through voice commands.
 
-![Voice Controlled Task Manager Preview](frontend/src/assets
-/preview.png)
+![Voice Controlled Task Manager Preview](frontend/src/assets/preview.png)
 
 ---
 
@@ -36,6 +35,7 @@ Actually change the previous one to 7 PM.
 Delete the LinkedIn one.
 What are my morning tasks?
 Move the second one to tomorrow.
+```
 
 ## Voice Interaction Flow
 
@@ -217,6 +217,7 @@ The `AuthUser` type is defined in `src/api/backendApi.ts` and contains:
   name: string;
   email: string;
 }
+```
 
 ## Database Design
 
@@ -360,5 +361,3 @@ WebSocket disconnect handling is not applicable because this implementation uses
 - The project is optimized for assessment/demo usage, not production deployment.
 
 ---
-
-
