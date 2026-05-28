@@ -8,7 +8,8 @@ The main goal is to create an AI-like voice assistant that can listen to the use
 
 Users can create, read, update, and delete tasks through conversation. The application does not use manual task action buttons such as edit or delete buttons. Task management actions are performed through voice commands only.
 
-![Voice Controlled Task Manager Preview](assets/preview.png)
+![Voice Controlled Task Manager Preview](frontend/src/assets
+/preview.png)
 
 ---
 
